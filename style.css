@@ -1,9 +1,3 @@
 body {
   padding-top: 2.5em;
 }
-
-#screenshot-carousel img {
-  height: 500px;
-  width: 100%;
-  /*not resonsive*/
-}
