@@ -1,3 +1,9 @@
 body {
   padding-top: 2.5em;
 }
+
+#screenshot-carousel img {
+  height: 500px;
+  width: 1200px;
+  /*not resonsive*/
+}
