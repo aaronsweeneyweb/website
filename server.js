@@ -5,4 +5,4 @@ app.use(express.static(__dirname + '/public'));
 
 var port = process.env.PORT || 8000;
 
-app.listen(8000);
+app.listen(port);
