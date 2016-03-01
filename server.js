@@ -1,13 +1,8 @@
-var http = require('http');
-var	express = require('./config/express');
-
+var	express = require('express');
 var app = express();
 
-var server = app.listen(process.env.PORT || config.port);
-app.get("/leaderboard", function(req, res) {
-  res.sendFile(__dirname+"./index.html");
-});
+app.use(express.static(__dirname + '/public'));
 
-var port = Number(process.env.PORT || 3000);
+var port = process.env.PORT || 8000;
 
-server.listen(port);
+app.listen(8000);

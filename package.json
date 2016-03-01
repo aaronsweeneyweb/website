@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/asweeney41/website/issues"
   },
-  "homepage": "https://github.com/asweeney41/website#readme"
+  "homepage": "https://github.com/asweeney41/website#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
